@@ -16,6 +16,9 @@
 */
 // write your code here
 
+var futureAccountBalance:Int = 1000000000000
+//this should be of type int because its a numerical value and its a var because as I withdraw money from the bank the account Balance will change
+
 
 
 
@@ -24,13 +27,18 @@
 */
 // write your code here
 
+//let puppyName = "Bella"
+//Since the name of the puppy will always stay hence let will be used
 
+var puppyName = "Bella"
 
 
 /*: question3
 ### 3. Use the `print()` function to print the name of your new puppy to the console.
 */
 // write your code here
+print (puppyName)
+
 
 
 
@@ -39,6 +47,7 @@
 ### 4. Use the `print()` function to print the sentence "I just got a new puppy named <your puppy's name> and she is awesome!" to the console.
 */
 // write your code here
+print("I just got a new puppy named \(puppyName)and she is awesome!")
 
 
 
@@ -47,6 +56,7 @@
 ### 5. Use the `print()` function to print the sentence "I have $<balance> in my bank account." to the console.
 */
 // write your code here
+print("I have $ \(futureAccountBalance) balance")
 
 
 
@@ -56,13 +66,18 @@
 */
 // write your code here
 
-
+var newBalance = futureAccountBalance + 100
+print("I now have a balance of \(newBalance)")
 
 
 /*: question7
 ### 7. You decided you don't like the name Bella. Change your puppy's name to something else. (Can you do this? What happens when you try? Why?)
 */
 // write your code here
+//In theory you cannot change the name of the puppy because you set the variable as a let and not as a var but if you change the type to var from let then you can 
+//Initially it was let puppyName = "Bella"
+//now it would be 
+puppyName = "Stella"
 
 
 
